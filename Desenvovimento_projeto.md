@@ -10,7 +10,7 @@
 
 [] - **Verificar valores ausentes, nulos e outliers e tráta-los;**
 
-    [] - Tratamento de valore ausentes e nulos;  <-------- 
-    [] - Tratamento de outliers;
+    [X] - Tratamento de valore ausentes e nulos;
+    [] - Tratamento de outliers;  <--------
 
 [] - Padronizar o nome das colunas e a númeração do ID, colocar 4 digitos como padrão.
