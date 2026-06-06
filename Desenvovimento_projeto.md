@@ -1,3 +1,5 @@
+# DESENVOLVIMENTO DO PROJETO
+
 ## Tratamento de dados
 [X] - **Verificar os tipos de dados das colunas (data, str, int, ...), se precisar, formatar para o padrão certo;**
 
