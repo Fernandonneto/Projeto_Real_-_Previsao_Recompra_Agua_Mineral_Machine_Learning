@@ -13,6 +13,9 @@
     [✔️] - Tratamento de valore ausentes e nulos;
     [✔️] - Tratamento de outliers;
 
-[ ] - **Padronizar o nome das colunas e a númeração do ID, colocar 4 digitos como padrão.** ⬅️
+[✔️] - **Padronizar base de dados.** 
 
-## Análise exploratória de dados (EDA)
+    [✔️] - Padronizar o nome das colunas; 
+    [✔️] - Padronizar a númeração do ID, colocando 4 digitos como padrão;
+
+## Análise Exploratória de Dados (EDA) ⬅️
