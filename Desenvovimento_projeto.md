@@ -19,9 +19,9 @@
     [✔️] - Padronizar a númeração do ID, colocando 4 digitos como padrão;
 
 ## Análise Exploratória de Dados (EDA)
-[✔️] - **Informações iniciais da base de dados;** ⬅️
+[✔️] - **Informações iniciais da base de dados;**
 
-[ ] - **Planejamento da EDA;**
+[ ] - **Planejamento da EDA;** ⬅️
 
 [ ] - **Execução;** 
 
