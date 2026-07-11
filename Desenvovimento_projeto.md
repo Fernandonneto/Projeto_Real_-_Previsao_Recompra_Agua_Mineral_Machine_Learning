@@ -18,4 +18,17 @@
     [✔️] - Padronizar o nome das colunas; 
     [✔️] - Padronizar a númeração do ID, colocando 4 digitos como padrão;
 
-## Análise Exploratória de Dados (EDA) ⬅️
+## Análise Exploratória de Dados (EDA)
+[✔️] - **Informações iniciais da base de dados;** ⬅️
+
+[ ] - **Planejamento da EDA;**
+
+[ ] - **Execução;** 
+
+
+## Machine Learnig 
+[ ] - **Tratamento dos dados para ML;**
+
+    [ ] - Transformar a coluna texto "obs_pedido" em binária;
+    [ ] - Na coluna "cli_intervalo_medio" imputar um indicador para os clientes novos NaN;
+    [ ] - As colunas "target_dt_proxima_compra e target_dias_ate_recompra" devem ser excluidas para evitar data leakage no modelo;
