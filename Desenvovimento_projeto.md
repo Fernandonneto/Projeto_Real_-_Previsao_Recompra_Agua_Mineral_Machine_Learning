@@ -21,10 +21,15 @@
 ## Análise Exploratória de Dados (EDA)
 [✔️] - **Informações iniciais da base de dados;**
 
-[ ] - **Planejamento da EDA;** ⬅️
+[✔️] - **Planejamento da EDA;**
 
-[ ] - **Execução;** 
+[ ] - **Execução;** ⬅️
 
+    [ ] - 1 Etapa; ⬅️
+    [ ] - 2 Etapa;
+    [ ] - 3 Etapa;
+    [ ] - 4 Etapa;
+    [ ] - Conclusão;
 
 ## Machine Learnig 
 [ ] - **Tratamento dos dados para ML;**
