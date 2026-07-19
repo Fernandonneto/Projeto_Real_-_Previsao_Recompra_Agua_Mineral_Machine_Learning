@@ -23,7 +23,7 @@
 
 [✔️] - **Planejamento da EDA;**
 
-[ ] - **Execução;** ⬅️
+[ ] - **Execução;**
 
     [ ] - 1 Etapa; ⬅️
     [ ] - 2 Etapa;
