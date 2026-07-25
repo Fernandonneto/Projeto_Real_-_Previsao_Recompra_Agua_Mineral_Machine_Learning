@@ -41,4 +41,8 @@
 
 ## Dashboard para acompanhamento de KPI's
 [ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A";**
-[ ] - **Desenvolver a "Automação de gatilhos logísticos preditivos de recompra", informado na EDA 2º-B**;
+[ ] - **Desenvolver a "Automação de gatilhos logísticos preditivos de recompra", informado na EDA 2º-B;**
+
+
+## Melhoria do README
+[ ] - **Desenvolver - "ML que será utilizado também será aplicado e servira na melhoria da lógistica, pois sabendo se o cliente realmente vai querer a água no próximo dia ou no mesmo dia (pois a mensagem sera enviada um dia antes), da para planejar rotas de entregas mais eficientes, assim como preparar o estoque para a demanda, sem deixar faltar água."**
