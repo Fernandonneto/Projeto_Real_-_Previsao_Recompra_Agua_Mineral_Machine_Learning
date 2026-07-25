@@ -35,5 +35,10 @@
 [ ] - **Tratamento dos dados para ML;**
 
     [ ] - Transformar a coluna texto "obs_pedido" em binária;
+    [ ] - Transformar a coluna texto "dt_semana" em númerica;
     [ ] - Na coluna "cli_intervalo_medio" imputar um indicador para os clientes novos NaN;
     [ ] - As colunas "target_dt_proxima_compra e target_dias_ate_recompra" devem ser excluidas para evitar data leakage no modelo;
+
+## Dashboard para acompanhamento de KPI's
+[ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A";**
+[ ] - **Desenvolver a "Automação de gatilhos logísticos preditivos de recompra", informado na EDA 2º-B**;
