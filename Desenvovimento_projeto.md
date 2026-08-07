@@ -23,16 +23,16 @@
 
 [✔️] - **Planejamento da EDA;**
 
-[ ] - **Execução;**
+[✔️] - **Execução;**
 
     [✔️] - 1 Etapa;
     [✔️] - 2 Etapa;
     [✔️] - 3 Etapa;
-    [ ] - 4 Etapa; ⬅️
-    [ ] - Conclusão;
+    [✔️] - 4 Etapa; 
+    [✔️] - Conclusão;
 
 ## Machine Learnig 
-[ ] - **Tratamento dos dados para ML;**
+[ ] - **Tratamento dos dados para ML;** ⬅️
 
     [ ] - Transformar a coluna texto "obs_pedido" em binária;
     [ ] - Transformar a coluna texto "dt_semana" em númerica;
