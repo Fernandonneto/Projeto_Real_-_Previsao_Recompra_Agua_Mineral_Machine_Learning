@@ -1,91 +1,193 @@
-# 🧠 Projeto Real: Previsão de Recompra de Água Mineral com Machine Learning
+# 🧠 Previsão de Recompra de Água Mineral com Machine Learning
 
-Este projeto tem como objetivo desenvolver um modelo de Machine Learning capaz de prever a próxima compra de vasilhame de água mineral realizada pelos clientes, permitindo antecipar demandas, otimizar a logística de entrega e apoiar a tomada de decisão baseada em dados.
+Projeto de Ciência de Dados desenvolvido a partir de um **problema real de negócio**, com o objetivo de compreender e posteriormente prever o comportamento de recompra de clientes de água mineral.
 
-A iniciativa surgiu de uma necessidade real de negócio: identificar clientes com alta probabilidade de realizar um novo pedido em determinado período, possibilitando contato proativo, melhor planejamento operacional e aumento da eficiência no atendimento.
+A proposta é utilizar dados históricos de pedidos para identificar padrões de consumo e estimar a probabilidade de um cliente realizar uma nova compra em até **15 dias**.
 
-## 🧩 Etapas Desenvolvidas
+A solução poderá apoiar decisões como:
 
-**1. Estruturação e digitalização dos dados:** \
-Os dados utilizados não estavam originalmente em formato digital, sendo registrados manualmente em agendas físicas utilizadas na operação diária.
+- identificação de clientes com maior probabilidade de recompra;
+- criação de ações de reativação e relacionamento;
+- antecipação de demanda;
+- planejamento operacional e logístico;
+- melhor direcionamento das entregas.
 
-Como primeira etapa, foi realizada a digitalização e estruturação dessas informações em planilhas eletrônicas, criando uma base de dados adequada para análise e modelagem.
+> 🚧 **Status:** projeto em desenvolvimento.  
+> A etapa de tratamento, engenharia de atributos e Análise Exploratória de Dados (EDA) já foi realizada. A próxima etapa será a construção e avaliação do modelo de Machine Learning.
 
-**2. Adequação à LGPD:** \
-Antes do início das análises, foi realizado um processo de anonimização dos dados para garantir conformidade com a Lei Geral de Proteção de Dados (LGPD).
+---
+
+## 🎯 Objetivo do Projeto
+
+Responder à seguinte questão de negócio:
+
+> **"É possível utilizar o histórico de compras para antecipar quais clientes possuem maior probabilidade de realizar uma nova compra de água mineral nos próximos 15 dias?"**
+
+Para isso, o projeto busca compreender:
+
+- como os clientes realizam suas compras;
+- quais são seus padrões de recorrência;
+- como o volume adquirido se relaciona com a recompra;
+- como o intervalo entre pedidos influencia o comportamento futuro;
+- se existem padrões sazonais;
+- quais variáveis apresentam maior potencial preditivo.
+
+---
+
+# 🗂️ Etapas do Projeto
+
+## 1. Estruturação e digitalização dos dados
+
+Os dados utilizados no projeto foram originalmente registrados manualmente em agendas físicas utilizadas na operação diária.
+
+Como primeira etapa, essas informações foram digitalizadas e estruturadas em planilhas eletrônicas, possibilitando a criação de uma base adequada para análise e posteriormente para modelagem preditiva.
+
+---
+
+## 2. Anonimização e adequação à LGPD
+
+Antes da utilização dos dados para análise, foi realizada a anonimização das informações dos clientes.
 
 Foram adotadas as seguintes medidas:
 
-- Substituição dos nomes dos clientes por identificadores únicos (id_cliente);
-- Remoção de informações pessoais da base analítica;
-- Preservação da privacidade dos clientes por meio da utilização exclusiva de dados anonimizados.
+- substituição dos nomes dos clientes por identificadores (`id_cliente`);
+- remoção de informações pessoais desnecessárias para a análise;
+- utilização exclusivamente de dados anonimizados na base analítica.
 
-**3. Tratamento inicial dos dados:** 
-- Importação da base para ambiente de análise;
-- Conversão e adequação dos tipos de dados;
-- Padronização de datas e variáveis categóricas;
-- Estruturação da base para análises futuras.
+Dessa forma, o projeto preserva a identidade dos clientes e reduz a exposição de informações pessoais.
 
-**4. Engenharia de Atributos (Feature Engineering):** \
-Foram desenvolvidas novas variáveis para capturar padrões de comportamento dos clientes, incluindo:
+---
 
-- Ano do pedido;
-- Mês do pedido;
-- Estação do ano;
-- Dias desde a última compra;
-- Frequência de compra;
-- Intervalo médio entre pedidos;
-- Média de unidades adquiridas por cliente;
-- Total de pedidos realizados;
-- Próxima data de compra;
-- Dias até a próxima compra;
-- Variável alvo indicando recompra nos próximos 15 dias.
+## 3. Tratamento e preparação dos dados
 
-**5. Qualidade dos Dados:** \
-Atualmente estão sendo realizadas análises relacionadas a:
+A base passou por etapas de preparação para garantir maior consistência e qualidade dos dados.
 
-- Valores nulos;
-- Dados faltantes;
-- Registros inconsistentes;
-- Identificação de possíveis outliers.
+Foram realizadas:
 
-## 📊 Análises Planejadas
+- importação e estruturação da base;
+- adequação dos tipos de dados;
+- padronização das datas;
+- criação de variáveis temporais;
+- tratamento de valores ausentes;
+- verificação de inconsistências;
+- análise de possíveis valores extremos;
+- validação da consistência das variáveis.
 
-Nas próximas etapas serão realizadas análises exploratórias para identificar:
+---
 
-- Padrões de consumo;
-- Frequência de recompra;
-- Sazonalidade das vendas;
-- Comportamento dos clientes;
-- Relações entre variáveis explicativas e a recompra.
+# ⚙️ 4. Engenharia de Atributos
 
-## 🤖 Modelagem Preditiva
+Foram criadas variáveis derivadas com o objetivo de representar melhor o comportamento histórico dos clientes.
 
-Serão avaliados diferentes algoritmos de Machine Learning, tais como:
+### Variáveis temporais
 
-- Regressão Logística;
-- Árvore de Decisão;
-- Random Forest;
-- Gradient Boosting;
-- Outros modelos adequados ao problema.
+- `dt_semana` — dia da semana do pedido;
+- `dt_estacao` — estação do ano;
+- `dt_ano` — ano do pedido;
+- `dt_mes` — mês do pedido.
 
-Os modelos serão comparados por meio de métricas de classificação, buscando selecionar a solução com maior capacidade preditiva.
+### Variáveis comportamentais
 
-## 📈 Resultados Esperados
+- `cli_dias_desde_ultimo_pedido` — dias desde a última compra;
+- `cli_intervalo_medio` — intervalo médio entre compras;
+- `cli_frequencia_pedidos` — frequência histórica de pedidos;
+- `cli_media_aguas_por_pedido` — média de águas adquiridas por pedido;
+- `cli_total_pedidos` — quantidade total de pedidos realizados.
 
-- Previsão antecipada de novos pedidos;
-- Identificação de clientes com maior probabilidade de recompra;
-- Melhoria do planejamento logístico;
-- Otimização das rotas de entrega;
-- Redução do tempo de atendimento;
-- Aumento da satisfação e fidelização dos clientes.
+### Variáveis relacionadas à recompra
 
-## 🚀 Evolução do Projeto
+- `target_dt_proxima_compra` — data estimada/observada da próxima compra;
+- `target_dias_ate_recompra` — quantidade de dias até a próxima compra;
+- `target_vai_comprar_15d` — variável alvo que indica se o cliente realizou uma nova compra dentro de 15 dias.
 
-Este é um projeto real e encontra-se em desenvolvimento contínuo. Novas variáveis, análises e modelos serão incorporados conforme a evolução da base de dados e a validação dos resultados obtidos.
+A criação dessas variáveis permite transformar o histórico bruto de pedidos em informações capazes de representar o comportamento de compra dos clientes.
 
-O objetivo é transformar registros históricos de vendas em informações estratégicas capazes de apoiar decisões operacionais e comerciais de forma mais eficiente e inteligente.
+---
 
-## ✅ Conclusão
+# 📊 5. Análise Exploratória de Dados (EDA)
 
-O projeto demonstra a aplicação prática da Ciência de Dados e do Machine Learning em um contexto real de negócio. A partir da digitalização, tratamento e modelagem dos dados, busca-se construir uma solução capaz de prever o comportamento de compra dos clientes, gerando ganhos operacionais, melhorando a experiência do consumidor e contribuindo para uma gestão mais orientada por dados.
+Após o tratamento e a engenharia de atributos, foi realizada uma Análise Exploratória de Dados com foco no comportamento de consumo e na recompra.
+
+A EDA foi estruturada em quatro etapas principais:
+
+### 5.1 Perfil geral dos pedidos
+
+Foram analisados:
+
+- distribuição da quantidade de águas entregues;
+- evolução dos pedidos ao longo do tempo;
+- distribuição dos pedidos por dia da semana.
+
+**Objetivo:** compreender o comportamento geral da operação e identificar padrões temporais e de volume.
+
+### 5.2 Perfil dos clientes
+
+Foram analisados:
+
+- total de pedidos por cliente;
+- intervalo médio entre compras;
+- média de águas por pedido.
+
+**Objetivo:** identificar diferentes padrões de consumo e recorrência entre os clientes.
+
+### 5.3 Relação entre variáveis e recompra
+
+Foram realizados cruzamentos entre variáveis comportamentais e a variável relacionada à próxima compra.
+
+Entre as principais análises:
+
+- quantidade de águas × dias até recompra;
+- intervalo médio × dias até recompra;
+- frequência de pedidos × dias até recompra;
+- total de pedidos × dias até recompra;
+- estação do ano × dias até recompra.
+
+**Objetivo:** identificar possíveis fatores associados ao comportamento de recompra.
+
+### 5.4 Correlação entre variáveis
+
+Foi construída uma matriz de correlação para avaliar as relações entre as principais variáveis numéricas.
+
+A análise permitiu identificar variáveis com maior associação com a recompra e também possíveis redundâncias entre variáveis explicativas.
+
+Um exemplo importante identificado foi a correlação entre:
+
+`cli_frequencia_pedidos` × `cli_total_pedidos`
+
+que apresentou forte redundância e deverá ser considerada na etapa de modelagem.
+
+---
+
+# 🔎 6. Principais Insights da EDA
+
+A análise exploratória permitiu identificar alguns padrões relevantes:
+
+### 🛒 Volume dos pedidos
+
+A maior parte dos pedidos está concentrada em volumes menores, especialmente entre 1 e 2 unidades, indicando um padrão de consumo recorrente de baixo volume.
+
+### 📅 Comportamento temporal
+
+A quantidade de pedidos apresenta variações ao longo do período analisado e entre os dias da semana, indicando a existência de padrões temporais que podem ser relevantes para previsão de demanda.
+
+### 🔄 Comportamento de recompra
+
+Foi observada concentração significativa das recompras em intervalos curtos, especialmente nos primeiros 15 dias após um pedido.
+
+### 👥 Perfil dos clientes
+
+A base apresenta diferentes níveis de recorrência, desde clientes com poucos pedidos até clientes com histórico elevado de compras, caracterizando diferentes perfis de consumo.
+
+### ⏱️ Intervalo entre compras
+
+O intervalo médio histórico entre pedidos apresentou relação relevante com o intervalo observado até a próxima compra, sugerindo que o comportamento passado pode contribuir para antecipar o próximo pedido.
+
+### 🌦️ Sazonalidade
+
+Foram observadas diferenças no comportamento de recompra entre períodos sazonais, indicando que fatores temporais podem contribuir para explicar parte da variação na demanda.
+
+---
+
+# 🤖 7. Machine Learning — Próxima Etapa
+
+Com a EDA concluída, a próxima etapa será desenvolver um modelo de **Machine Learning supervisionado** para classificação.
