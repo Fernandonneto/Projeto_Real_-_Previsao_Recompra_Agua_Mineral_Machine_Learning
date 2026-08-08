@@ -40,6 +40,12 @@
     [ ] - As colunas "target_dt_proxima_compra e target_dias_ate_recompra" devem ser excluidas para evitar data leakage no modelo;
     [ ] - Levar em consideração a "Modulação sazonal de modelo preditivo (Ajuste de clima)", informado na EDA 3º-E;
 
+[ ] - **ML - Para duelo;**
+
+    [ ] - Regressão Logística;
+    [ ] - Árvore de Decisão;
+    [ ] - Random Forest;
+
 ## Dashboard para acompanhamento de KPI's
 [ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A;**
 [ ] - **Desenvolver a "Automação de gatilhos logísticos preditivos de recompra", informado na EDA 2º-B;**
