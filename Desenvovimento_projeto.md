@@ -35,9 +35,10 @@
 [ ] - **Tratamento dos dados para ML;** ⬅️
 
     [ ] - Transformar a coluna texto "obs_pedido" em binária;
-    [ ] - Transformar a coluna texto "dt_semana" em númerica;
-    [ ] - Na coluna "cli_intervalo_medio" imputar um indicador para os clientes novos NaN;
-    [ ] - As colunas "target_dt_proxima_compra e target_dias_ate_recompra" devem ser excluidas para evitar data leakage no modelo;
+    [ ] - Transformar a coluna texto "dt_semana" com One-Hot Encoding e excluir variável;
+    [ ] - Na coluna "cli_intervalo_medio" imputar a mediana para os clientes novos;
+    [ ] - As colunas "target_dt_proxima_compra" e "target_dias_ate_recompra" devem ser excluidas para evitar data leakage no modelo;
+    [ ] - Exclusão da coluna "cli_frequencia_pedidos";
     [ ] - Levar em consideração a "Modulação sazonal de modelo preditivo (Ajuste de clima)", informado na EDA 3º-E;
 
 [ ] - **ML - Para duelo;**
