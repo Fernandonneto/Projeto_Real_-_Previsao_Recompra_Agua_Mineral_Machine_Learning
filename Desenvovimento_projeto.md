@@ -32,16 +32,15 @@
     [✔️] - Conclusão;
 
 ## Machine Learnig 
-[ ] - **Tratamento dos dados para ML;** ⬅️
+[✔️] - **Tratamento dos dados para ML;**
 
-    [ ] - Transformar a coluna texto "obs_pedido" em binária;
-    [ ] - Transformar a coluna texto "dt_semana" com One-Hot Encoding e excluir variável;
-    [ ] - Na coluna "cli_intervalo_medio" imputar a mediana para os clientes novos;
-    [ ] - As colunas "target_dt_proxima_compra" e "target_dias_ate_recompra" devem ser excluidas para evitar data leakage no modelo;
-    [ ] - Exclusão da coluna "cli_frequencia_pedidos";
-    [ ] - Levar em consideração a "Modulação sazonal de modelo preditivo (Ajuste de clima)", informado na EDA 3º-E;
+    [✔️] - Transformar a coluna texto "obs_pedido" em binária;
+    [✔️] - Transformar a coluna texto "dt_semana" com One-Hot Encoding e excluir variável;
+    [✔️] - Na coluna "cli_intervalo_medio" imputar a mediana para os clientes novos;
+    [✔️] - As colunas "target_dt_proxima_compra" e "target_dias_ate_recompra" devem ser excluidas para evitar data leakage no modelo;
+    [✔️] - Exclusão da coluna "cli_frequencia_pedidos";
 
-[ ] - **ML - Para duelo;**
+[ ] - **ML - Para duelo;** ⬅️
 
     [ ] - Regressão Logística;
     [ ] - Árvore de Decisão;
@@ -55,3 +54,6 @@
 
 ## Melhoria do README
 [ ] - **Desenvolver - "ML que será utilizado também será aplicado e servira na melhoria da lógistica, pois sabendo se o cliente realmente vai querer a água no próximo dia ou no mesmo dia (pois a mensagem sera enviada um dia antes), da para planejar rotas de entregas mais eficientes, assim como preparar o estoque para a demanda, sem deixar faltar água."**
+
+OBS:
+[ ] - Levar em consideração a "Modulação sazonal de modelo preditivo (Ajuste de clima)", informado na EDA 3º-E;
