@@ -37,12 +37,15 @@
     [✔️] - Transformar as colunas texto "obs_pedido" e "dt_estacao" em binária;
     [✔️] - Transformar a coluna texto "dt_semana" com One-Hot Encoding e excluir variável;
     [✔️] - Na coluna "cli_intervalo_medio" imputar a mediana para os clientes novos;
-    [✔️] - As colunas "target_dt_proxima_compra" e "target_dias_ate_recompra" devem ser excluidas para evitar Data Leakage no modelo;
     [✔️] - Exclusão da coluna "cli_frequencia_pedidos";
     [✔️] - Transformar a variável "qtd_aguas_ticket" em registro válido
 
-[ ] - **ML - Para duelo;** ⬅️
+[✔️] - **Preparação de ML para duelo;** ⬅️
 
+    [✔️] - Sepração de X e y;
+    [✔️] - Separação da base de treino e teste;
+
+[ ] - **ML - Para duelo;** ⬅️
     [ ] - Regressão Linear;
     [ ] - Árvore de Decisão;
     [ ] - Random Forest;
