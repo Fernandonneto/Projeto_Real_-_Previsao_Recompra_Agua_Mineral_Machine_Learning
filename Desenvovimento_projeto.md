@@ -42,7 +42,7 @@
 
 [ ] - **ML - Para duelo;**
 
-    [✔️] - Preparação de ML para duelo;
+    [✔️] - Preparação da base para modelagem e treinamento;
         [✔️] - Sepração de X e y;
         [✔️] - Separação da base de treino e teste;
     [ ] - Regressão Linear; ⬅️
