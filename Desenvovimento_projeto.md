@@ -40,13 +40,12 @@
     [✔️] - Exclusão da coluna "cli_frequencia_pedidos";
     [✔️] - Transformar a variável "qtd_aguas_ticket" em registro válido
 
-[✔️] - **Preparação de ML para duelo;** ⬅️
+[ ] - **ML - Para duelo;**
 
-    [✔️] - Sepração de X e y;
-    [✔️] - Separação da base de treino e teste;
-
-[ ] - **ML - Para duelo;** ⬅️
-    [ ] - Regressão Linear;
+    [✔️] - Preparação de ML para duelo;
+        [✔️] - Sepração de X e y;
+        [✔️] - Separação da base de treino e teste;
+    [ ] - Regressão Linear; ⬅️
     [ ] - Árvore de Decisão;
     [ ] - Random Forest;
 
