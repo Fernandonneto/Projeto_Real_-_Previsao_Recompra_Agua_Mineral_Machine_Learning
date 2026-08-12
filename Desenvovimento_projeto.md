@@ -48,9 +48,9 @@
     [✔️] - Regressão Linear;
         [] - Cross Validation;
     [✔️] - Árvore de Decisão;
-        [] - Cross Validation;
-    [✔️] - Random Forest;
         [] - Cross Validation; ⬅️
+    [✔️] - Random Forest;
+        [✔️] - Cross Validation;
     [] - Análise e avaliação dos modelos;
 
 ## Dashboard para acompanhamento de KPI's
