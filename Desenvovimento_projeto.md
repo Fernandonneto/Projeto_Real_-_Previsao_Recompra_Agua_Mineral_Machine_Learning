@@ -46,7 +46,7 @@
         [✔️] - Sepração de X e y;
         [✔️] - Separação da base de treino e teste;
     [✔️] - Regressão Linear;
-        [] - Cross Validation;
+        [✔️] - Cross Validation;
     [✔️] - Árvore de Decisão;
         [] - Cross Validation; ⬅️
     [✔️] - Random Forest;
