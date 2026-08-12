@@ -47,7 +47,8 @@
         [✔️] - Separação da base de treino e teste;
     [✔️] - Regressão Linear;
     [✔️] - Árvore de Decisão;
-    [ ] - Random Forest; ⬅️
+    [✔️] - Random Forest; 
+    [] - Análise e avaliação dos modelos; ⬅️
 
 ## Dashboard para acompanhamento de KPI's
 [ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A;**
