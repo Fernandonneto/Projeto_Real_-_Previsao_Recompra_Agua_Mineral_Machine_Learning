@@ -46,9 +46,12 @@
         [✔️] - Sepração de X e y;
         [✔️] - Separação da base de treino e teste;
     [✔️] - Regressão Linear;
+        [] - Cross Validation;
     [✔️] - Árvore de Decisão;
-    [✔️] - Random Forest; 
-    [] - Análise e avaliação dos modelos; ⬅️
+        [] - Cross Validation;
+    [✔️] - Random Forest;
+        [] - Cross Validation; ⬅️
+    [] - Análise e avaliação dos modelos;
 
 ## Dashboard para acompanhamento de KPI's
 [ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A;**
