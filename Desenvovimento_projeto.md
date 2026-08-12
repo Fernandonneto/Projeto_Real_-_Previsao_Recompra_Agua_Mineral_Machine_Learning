@@ -45,8 +45,8 @@
     [✔️] - Preparação da base para modelagem e treinamento;
         [✔️] - Sepração de X e y;
         [✔️] - Separação da base de treino e teste;
-    [ ] - Regressão Linear; ⬅️
-    [ ] - Árvore de Decisão;
+    [✔️] - Regressão Linear;
+    [ ] - Árvore de Decisão; ⬅️
     [ ] - Random Forest;
 
 ## Dashboard para acompanhamento de KPI's
