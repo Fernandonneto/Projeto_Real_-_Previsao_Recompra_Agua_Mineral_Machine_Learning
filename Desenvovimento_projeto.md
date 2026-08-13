@@ -40,7 +40,7 @@
     [✔️] - Exclusão da coluna "cli_frequencia_pedidos";
     [✔️] - Transformar a variável "qtd_aguas_ticket" em registro válido
 
-[ ] - **ML - Para duelo;**
+[✔️] - **ML - Para duelo;**
 
     [✔️] - Preparação da base para modelagem e treinamento;
         [✔️] - Sepração de X e y;
