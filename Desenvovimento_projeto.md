@@ -51,7 +51,11 @@
         [✔️] - Cross Validation;
     [✔️] - Random Forest;
         [✔️] - Cross Validation;
-    [] - Análise e avaliação dos modelos; ⬅️
+    [✔️] - Análise e avaliação dos modelos;
+
+[ ] - **ML - Aplicação da Regressão Linear;** ⬅️
+    [] - Execução do ML;
+    [] - Aplicação de hiperparâmetros;
 
 ## Dashboard para acompanhamento de KPI's
 [ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A;**
