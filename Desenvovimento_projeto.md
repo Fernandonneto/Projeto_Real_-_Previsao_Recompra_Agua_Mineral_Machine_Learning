@@ -53,9 +53,9 @@
         [✔️] - Cross Validation;
     [✔️] - Análise e avaliação dos modelos;
 
-[ ] - **ML - Aplicação da Regressão Linear;** ⬅️
-    [] - Desenvolvimento e otimização do modelo preditivo;
-    [] - Aprimoramento do modelo de regressão linear;
+[ ] - **ML - Aplicação da Regressão Linear;** 
+    [✔️] - Teste de diferentes conjuntos de variáveis para o modelo;
+    [] - Aprimoramento do modelo de regressão linear; ⬅️
     [] - Otimização da previsão de recompra;
     [] - Ajuste e validação do modelo preditivo;
     [] - Otimização e Validação da Regressão Linear;
