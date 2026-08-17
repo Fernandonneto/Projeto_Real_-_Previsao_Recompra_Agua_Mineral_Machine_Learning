@@ -56,11 +56,8 @@
 [ ] - **ML - Aplicação da Regressão Linear;** 
     [✔️] - Teste de diferentes conjuntos de variáveis para o modelo;
     [✔️] - Teste de interações; 
-    [] - Modelos regularizados; ⬅️
-    [] - Aprimoramento do modelo de regressão linear;
-    [] - Otimização da previsão de recompra;
-    [] - Ajuste e validação do modelo preditivo;
-    [] - Otimização e Validação da Regressão Linear;
+    [✔️] - Modelos regularizados;
+    [] - Ajuste dos hiperparâmetros; ⬅️
 
 ## Dashboard para acompanhamento de KPI's
 [ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A;**
