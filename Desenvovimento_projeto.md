@@ -53,20 +53,19 @@
         [✔️] - Cross Validation;
     [✔️] - Análise e avaliação dos modelos;
 
-[ ] - **ML - Aplicação da Regressão Linear;** 
+[ ] - **ML - Aplicação da Regressão Linear;** ⬅️
     [✔️] - Teste de diferentes conjuntos de variáveis para o modelo;
     [✔️] - Teste de interações; 
     [✔️] - Modelos regularizados;
-    [] - Ajuste dos hiperparâmetros; ⬅️
+    [✔️] - Ajuste dos hiperparâmetros;
 
-## Dashboard para acompanhamento de KPI's
+## Melhoria do README
+[ ] - **Desenvolver - "ML que será utilizado também será aplicado e servira na melhoria da lógistica, pois sabendo se o cliente realmente vai querer a água no próximo dia ou no mesmo dia (pois a mensagem sera enviada um dia antes), da para planejar rotas de entregas mais eficientes, assim como preparar o estoque para a demanda, sem deixar faltar água."**
+
+## Desenvolvimento futuro - Dashboard para acompanhamento de KPI's
 [ ] - **Desenvoler a "Régua de relacionamento por ciclo de vida do LTV", informado na EDA 2º-A;**
 [ ] - **Desenvolver a "Automação de gatilhos logísticos preditivos de recompra", informado na EDA 2º-B;**
 [ ] - **Desenvoler a "Régua de recompra para transição de faixa e ciclo de vida (LTV)", informado na EDA 2º-D, para dar mais forças a EDA 2º-A;**
 [ ] - **Desenvolver a "Modulação sazonal de modelo preditivo (Ajuste de clima)", informado na EDA 3º-E;**
 
-## Melhoria do README
-[ ] - **Desenvolver - "ML que será utilizado também será aplicado e servira na melhoria da lógistica, pois sabendo se o cliente realmente vai querer a água no próximo dia ou no mesmo dia (pois a mensagem sera enviada um dia antes), da para planejar rotas de entregas mais eficientes, assim como preparar o estoque para a demanda, sem deixar faltar água."**
-
-OBS:
-[ ] - Levar em consideração a "Modulação sazonal de modelo preditivo (Ajuste de clima)", informado na EDA 3º-E;
+## Desenvolvimento futuro - K-means
