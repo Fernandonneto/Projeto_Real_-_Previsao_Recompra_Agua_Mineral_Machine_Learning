@@ -55,8 +55,8 @@
 
 [ ] - **ML - Aplicação da Regressão Linear;** 
     [✔️] - Teste de diferentes conjuntos de variáveis para o modelo;
-    [] - Teste de interações; ⬅️
-    [] - Modelos regularizados;
+    [✔️] - Teste de interações; 
+    [] - Modelos regularizados; ⬅️
     [] - Aprimoramento do modelo de regressão linear;
     [] - Otimização da previsão de recompra;
     [] - Ajuste e validação do modelo preditivo;
