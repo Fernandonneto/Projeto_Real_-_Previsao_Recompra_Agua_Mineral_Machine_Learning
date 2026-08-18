@@ -53,13 +53,13 @@
         [✔️] - Cross Validation;
     [✔️] - Análise e avaliação dos modelos;
 
-[ ] - **ML - Aplicação da Regressão Linear;** ⬅️
+[✔️] - **ML - Aplicação da Regressão Linear;**
     [✔️] - Teste de diferentes conjuntos de variáveis para o modelo;
     [✔️] - Teste de interações; 
     [✔️] - Modelos regularizados;
     [✔️] - Ajuste dos hiperparâmetros;
 
-## Melhoria do README
+## Melhoria do README ⬅️
 [ ] - **Desenvolver - "ML que será utilizado também será aplicado e servira na melhoria da lógistica, pois sabendo se o cliente realmente vai querer a água no próximo dia ou no mesmo dia (pois a mensagem sera enviada um dia antes), da para planejar rotas de entregas mais eficientes, assim como preparar o estoque para a demanda, sem deixar faltar água."**
 
 ## Desenvolvimento futuro - Dashboard para acompanhamento de KPI's
