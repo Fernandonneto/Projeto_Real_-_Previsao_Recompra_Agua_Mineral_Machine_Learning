@@ -59,7 +59,10 @@
     [✔️] - Modelos regularizados;
     [✔️] - Ajuste dos hiperparâmetros;
 
-## Desenvolvimento futuro - Aplicações de negócio ⬅️
+## Desenvolvimento futuro - Hispóteses para ML ⬅️
+[ ] - Separar clientes que compram 1 água × clientes que compram 2+ e treinar modelo
+
+## Desenvolvimento futuro - Aplicações de negócio 
 [ ] - **Desenvolver - "ML que será utilizado também será aplicado e servira na melhoria da lógistica, pois sabendo se o cliente realmente vai querer a água no próximo dia ou no mesmo dia (pois a mensagem sera enviada um dia antes), da para planejar rotas de entregas mais eficientes, assim como preparar o estoque para a demanda, sem deixar faltar água."**
 
 ## Desenvolvimento futuro - Dashboard para acompanhamento de KPI's
